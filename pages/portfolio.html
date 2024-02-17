@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Kumar</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="../assets/images/profile-pic.png" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="../assets/images/profile-pic.png" alt="Vishal Kumar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Vishal Kumar">Vishal Kumar</h1>
+
+                    <p class="title">Data Analyst</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:vishaltalreja01@gmail.com" class="contact-link">vishaltalreja01
+                                @gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+923353794273" class="contact-link">+92 (335) 3794273</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2001-10-14">October 14, 2001</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Karachi, Sindh Pakistan</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/vishaltalreja01/" class="social-link" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://twitter.com/vishalktalreja" class="social-link" target="_blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/vishaltalreja01/" class="social-link" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+        <div class="main-content">
+
+            <!-- #NAVBAR -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="../index.html">About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="resume.html">Resume</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="navbar-link active" href="#">Portfolio</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <article class="portfolio active">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Data Science</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Data Analysis</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Web development</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Data Science</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Data Analysis</button>
+                            </li>
+
+
+                            <li class="select-item">
+                                <button data-select-item>Web development</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item  active" data-filter-item data-category="data science">
+                            <a href="https://github.com/vishaltalreja01/Stock_Price_Prediction_using_LSTM"
+                                target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-1.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Stock Price Prediction</h3>
+                                <p class="project-category">Data Science</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="data science">
+                            <a href="https://github.com/vishaltalreja01/Breast-Cancer-Prediction" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Breast Cancer Prediction</h3>
+                                <p class="project-category">Data Science</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="data science">
+                            <a href="https://github.com/vishaltalreja01/NYC-Public-School-Test-Result-Scores"
+                                target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-3.jpg" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">NYC School Test Result Analysis</h3>
+                                <p class="project-category">Data Science</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="data analysis">
+                            <a href="https://github.com/vishaltalreja01/NYC-Public-School-Test-Result-Scores"
+                                target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-4.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">NYC School Test Result Analysis</h3>
+                                <p class="project-category">Data Analysis</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="data analysis">
+                            <a href="https://github.com/vishaltalreja01/NYC-Public-School-Test-Result-Scores"
+                                target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-5.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">NYC School Test Result Analysis</h3>
+                                <p class="project-category">Data Analysis</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="data analysis">
+                            <a href="https://github.com/vishaltalreja01/NYC-Public-School-Test-Result-Scores"
+                                target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-6.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">NYC School Test Result Analysis</h3>
+                                <p class="project-category">Data Analysis</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="projects/MeloMusicPlayer/" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="../assets/images/project-7.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Melo Music Player</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="projects/rootguardtechs/" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/project-8.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">RootGuard Technology</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- <script src="../assets/js/script.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        // element toggle function
+        const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+        // sidebar variables
+        const sidebar = document.querySelector("[data-sidebar]");
+        const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+        // sidebar toggle functionality for mobile
+        sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+        // custom select variables
+        const select = document.querySelector("[data-select]");
+        const selectItems = document.querySelectorAll("[data-select-item]");
+        const selectValue = document.querySelector("[data-selecct-value]");
+        const filterBtn = document.querySelectorAll("[data-filter-btn]");
+
+        select.addEventListener("click", function () { elementToggleFunc(this); });
+
+        // add event in all select items
+        for (let i = 0; i < selectItems.length; i++) {
+            selectItems[i].addEventListener("click", function () {
+
+                let selectedValue = this.innerText.toLowerCase();
+                selectValue.innerText = this.innerText;
+                elementToggleFunc(select);
+                filterFunc(selectedValue);
+
+            });
+        }
+
+        // filter variables
+        const filterItems = document.querySelectorAll("[data-filter-item]");
+
+        const filterFunc = function (selectedValue) {
+
+            for (let i = 0; i < filterItems.length; i++) {
+
+                if (selectedValue === "all") {
+                    filterItems[i].classList.add("active");
+                } else if (selectedValue === filterItems[i].dataset.category) {
+                    filterItems[i].classList.add("active");
+                } else {
+                    filterItems[i].classList.remove("active");
+                }
+
+            }
+
+        }
+
+        // add event in all filter button items for large screen
+        let lastClickedBtn = filterBtn[0];
+
+        for (let i = 0; i < filterBtn.length; i++) {
+
+            filterBtn[i].addEventListener("click", function () {
+
+                let selectedValue = this.innerText.toLowerCase();
+                selectValue.innerText = this.innerText;
+                filterFunc(selectedValue);
+
+                lastClickedBtn.classList.remove("active");
+                this.classList.add("active");
+                lastClickedBtn = this;
+
+            });
+
+        }
+    </script>
+</body>
+
+</html>
