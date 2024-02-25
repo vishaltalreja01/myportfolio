@@ -899,6 +899,14 @@ main {
   line-height: 1.6;
 }
 
+.timeline-point{
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
 /**
  * skills 
  */
