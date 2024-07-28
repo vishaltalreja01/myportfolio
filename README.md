@@ -2,6 +2,11 @@
 
 A fully customizable template to create your online (and paper) resume without writing a single line of code.
 
+> [!IMPORTANT]
+> This project will remain available but <ins>**won't receive updates**</ins>.
+>
+> If you are searching for a great framework to build your resume, **[check out Zenith](https://github.com/KonradSzwarc/zenith)**. It's a new iteration of this project utilizing recent Astro version capabilities that will provide you with much more features and customizability.
+
 ## Features
 
 - **✍️ Intellisense** — provide your data in TypeScript files, getting autocompletion and description of each property right in your IDE.
