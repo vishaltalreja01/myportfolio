@@ -1,22 +1,24 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  apolloGraphql,
   astro,
   chakraUi,
-  cypress,
-  eslint,
-  firebase,
-  mongoDb,
-  nestJs,
-  pnpm,
-  postgreSql,
-  prettier,
+  css,
+  framerMotion,
+  html,
+  javascript,
+  materialUI,
+  mysql,
+  nextJs,
+  oracle,
+  php,
   react,
-  sass,
+  sql,
+  strapi,
   supabase,
   tailwindCss,
   typescript,
+  web3,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -31,47 +33,45 @@ const skillsSectionData = {
       title: 'I already know',
       skills: [
         react({
-          level: 5,
+          level: 4,
           description:
             'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
         }),
-        typescript({
+        nextJs({ level: 2 }),
+        html({ level: 5 }),
+        javascript({
           level: 4,
           description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         }),
-        sass({
-          level: 4,
+        typescript({ level: 3 }),
+        tailwindCss({
+          level: 5,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-        chakraUi({ level: 5 }),
+        css({ level: 5 }),
+        chakraUi({ level: 2 }),
         tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
+        php({ level: 4 }),
+        sql({ level: 5 }),
+        mysql({ level: 4 }),
+        oracle({
           level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
         }),
-        nestJs({
-          level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
-        }),
-        postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+        supabase({ level: 3 }),
+        strapi({ level: 3 }),
+        materialUI({ level: 3 }),
       ],
     },
     {
       title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      skills: [nextJs(), astro(), supabase(), web3(), framerMotion()],
     },
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
         { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:pk', name: 'Urdu - native' },
+        { icon: 'circle-flags:pk', name: 'Sindhi - native' },
       ],
     },
   ],
