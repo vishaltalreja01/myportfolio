@@ -1,5 +1,6 @@
 import type { FavoritesSection } from '@/types/sections/favorites-section.types';
 import type { ReadonlyDeep } from 'type-fest';
+// import book1 from './src/assets/favorites/books/book-1.jpeg';
 
 const favoritesSectionData = {
   config: {
@@ -13,15 +14,15 @@ const favoritesSectionData = {
     data: [
       {
         image: import('@/assets/favorites/books/book-1.jpeg'),
-        title: 'The Pragmatic Programmer: From Journeyman to Master',
-        author: 'Andy Hunt, Dave Thomas',
-        url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
+        title: 'Think and Grow Rich: The Original Classic',
+        author: 'Napoleon Hill',
+        url: 'https://www.amazon.com/Think-Grow-Rich-Original-Classic/dp/B0DQWRF55R',
       },
       {
         image: import('@/assets/favorites/books/book-2.jpg'),
-        title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software',
-        author: 'Eric Evans',
-        url: 'https://www.goodreads.com/book/show/179133.Domain_Driven_Design',
+        title: 'Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!',
+        author: 'Robert T. Kiyosaki',
+        url: 'https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612681131',
       },
       {
         image: import('@/assets/favorites/books/book-3.jpeg'),
