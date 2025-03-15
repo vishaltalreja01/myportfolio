@@ -32,32 +32,20 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        react({
-          level: 4,
-          description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
-        }),
-        nextJs({ level: 2 }),
+        react({ level: 4 }),
+        nextJs({ level: 2, description: 'Currently Learning' }),
+        astro({ level: 2, description: 'Currently Learning' }),
         html({ level: 5 }),
-        javascript({
-          level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-        }),
+        javascript({ level: 4 }),
         typescript({ level: 3 }),
-        tailwindCss({
-          level: 5,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
-        }),
+        tailwindCss({ level: 4 }),
         css({ level: 5 }),
         chakraUi({ level: 2 }),
-        tailwindCss({ level: 3 }),
         php({ level: 4 }),
         sql({ level: 5 }),
         mysql({ level: 4 }),
-        oracle({
-          level: 4,
-        }),
-        supabase({ level: 3 }),
+        oracle({ level: 4 }),
+        supabase({ level: 3, description: 'Currently Learning' }),
         strapi({ level: 3 }),
         materialUI({ level: 3 }),
       ],
