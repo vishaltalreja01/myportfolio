@@ -8,7 +8,6 @@ import {
   jest,
   nestJs,
   nextJs,
-  nx,
   pnpm,
   postgreSql,
   prettier,
@@ -31,7 +30,7 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Golden Bulls',
+      name: 'AI Image Generation App',
       image: import('@/assets/portfolio/project-1.jpeg'),
       dates: [new Date('2020-03'), null],
       details: [
@@ -58,7 +57,7 @@ const portfolioSectionData = {
       links: [mockups({ url: '#' }), demo({ url: '#' })],
     },
     {
-      name: 'TruQuest',
+      name: 'Melo Music Player',
       image: import('@/assets/portfolio/project-2.jpeg'),
       dates: [new Date('2019-06'), new Date('2020-02')],
       details: [
@@ -80,7 +79,7 @@ const portfolioSectionData = {
       links: [mockups({ url: '#' }), demo({ url: '#' })],
     },
     {
-      name: 'Software Chasers',
+      name: 'E-Commerce Website',
       image: import('@/assets/portfolio/project-3.jpeg'),
       dates: [new Date('2018-01'), new Date('2020-12')],
       details: [
@@ -97,7 +96,7 @@ const portfolioSectionData = {
         'Quisque id consectetur eros. In hac habitasse platea dictumst. Sed eu pulvinar orci. Mauris consequat, est in dignissim varius, neque nisl commodo mauris, id blandit risus justo eu nulla.',
       tagsList: {
         title: 'Technologies',
-        tags: [react(), chakraUi(), typescript(), nx(), pnpm()],
+        tags: [react(), chakraUi(), typescript(), pnpm()],
       },
       links: [website({ url: '#' }), github({ url: '#' })],
     },
