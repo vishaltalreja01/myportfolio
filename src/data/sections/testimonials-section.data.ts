@@ -1,6 +1,6 @@
 import type { TestimonialsSection } from '@/types/sections/testimonials-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, linkedin, website } from '../helpers/links';
+import { linkedin, website } from '../helpers/links';
 
 const testimonialsSectionData = {
   config: {
@@ -11,28 +11,27 @@ const testimonialsSectionData = {
   },
   testimonials: [
     {
-      image: import('@/assets/testimonials/testimonial-1.jpeg'),
-      author: 'Howard Stewart',
-      relation: 'We work together as front-end developers at Google',
-      content:
-        'In nec mattis sem. Morbi purus lorem, euismod ac varius at, aliquet vitae augue. Pellentesque ut facilisis felis. In sed dui blandit, aliquet odio eu, elementum leo. In facilisis dapibus tortor ac volutpat. Cras cursus nec odio maximus elementum.',
-      links: [github({ url: '#' }), linkedin({ url: '#' })],
-    },
-    {
-      image: import('@/assets/testimonials/testimonial-2.jpeg'),
-      author: 'Jean Richards',
-      relation: 'My project manager at GitLab',
-      content:
-        'Praesent nec congue elit. Vestibulum lobortis congue ipsum, a gravida mi tempus ac. Mauris aliquet purus nibh, vel varius turpis tempus non. Nullam eget ultricies orci. Quisque nulla ante, auctor eget varius ac, imperdiet nec magna.',
-      links: [linkedin({ url: '#' })],
-    },
-    {
-      image: import('@/assets/testimonials/testimonial-3.jpeg'),
-      author: 'Jason Fisher',
-      relation: 'My customer for sidewing.com website',
+      image: import('@/assets/testimonials/sonny-stevenson.jpeg'),
+      author: 'Sonny Stevenson',
+      relation: 'CEO at Kava Up LLC',
       content:
         'Mauris tincidunt at purus vehicula porta. Mauris eget mollis turpis. Sed iaculis rutrum pharetra. Vivamus risus quam, suscipit et semper ut, aliquet ut tellus. Donec quis auctor nunc.',
-      links: [github({ url: '#' }), website({ url: '#' })],
+      links: [website({ url: 'https://rocketreach.co/sonny-stevenson-email_728678179' })],
+    },
+    {
+      image: import('@/assets/testimonials/yashan-riley.jpeg'),
+      author: 'Yashan Riley',
+      relation: 'My customer for RootGuard Technologies website',
+      content: 'Very Responsive and easy to work with. I was very happy with the result.',
+      links: [linkedin({ url: 'https://www.linkedin.com/in/yashan-riley-itil-awsx5-9564b65a/' })],
+    },
+    {
+      image: import('@/assets/testimonials/ritik-kumar.jpeg'),
+      author: 'Ritik Kumar',
+      relation: 'Founder at R.K.P Center',
+      content:
+        "During my three-year tenure collaborating with Vishal, I witnessed firsthand his unwavering dedication as a developer. His commitment significantly contributed to our software firm's ability to surpass dynamic goals, fostering a mutually beneficial environment for success. 💪",
+      links: [linkedin({ url: 'https://www.linkedin.com/in/ritikperwani/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<TestimonialsSection>;
