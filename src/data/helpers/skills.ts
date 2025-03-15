@@ -18,6 +18,20 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
+export const oracle = createSkillFactory({
+  name: 'Oracle',
+  icon: 'cib:oracle', // Assign custom SVG
+  iconColor: '#F80000',
+  url: 'https://www.oracle.com/',
+});
+
+export const oracleApex = createSkillFactory({
+  name: 'Oracle Apex',
+  icon: 'cib:oracle', // Assign custom SVG
+  iconColor: '#F80000',
+  url: 'https://apex.oracle.com/',
+});
+
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',
   icon: 'simple-icons:apollographql',
@@ -88,13 +102,6 @@ export const nextJs = createSkillFactory({
   url: 'https://nextjs.org/',
 });
 
-export const nx = createSkillFactory({
-  name: 'Nx',
-  icon: 'simple-icons:nx',
-  iconColor: '#143055',
-  url: 'https://nx.dev/',
-});
-
 export const pnpm = createSkillFactory({
   name: 'pnpm',
   icon: 'simple-icons:pnpm',
@@ -123,6 +130,48 @@ export const react = createSkillFactory({
   url: 'https://reactjs.org/',
 });
 
+export const html = createSkillFactory({
+  name: 'HTML5',
+  icon: 'simple-icons:html5',
+  iconColor: '#E34F26',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+});
+
+export const css = createSkillFactory({
+  name: 'CSS3',
+  icon: 'simple-icons:css3',
+  iconColor: '#61DAFB',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+});
+
+export const php = createSkillFactory({
+  name: 'PHP',
+  icon: 'simple-icons:php',
+  iconColor: '#777BB4',
+  url: 'https://www.php.net/',
+});
+
+export const javascript = createSkillFactory({
+  name: 'JavaScipt',
+  icon: 'simple-icons:javascript',
+  iconColor: '#F7DF1E',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+});
+
+export const mysql = createSkillFactory({
+  name: 'MySQL',
+  icon: 'logos:mysql',
+  iconColor: '#4479A1',
+  url: 'https://www.mysql.com/',
+});
+
+export const sql = createSkillFactory({
+  name: 'SQL',
+  icon: 'mdi:sql-query',
+  iconColor: '#ECD53F',
+  url: 'https://developer.mozilla.org/en-US/docs/Glossary/SQL',
+});
+
 export const reactQuery = createSkillFactory({
   name: 'React Query',
   icon: 'simple-icons:reactquery',
@@ -130,10 +179,38 @@ export const reactQuery = createSkillFactory({
   url: 'https://tanstack.com/query',
 });
 
+export const strapi = createSkillFactory({
+  name: 'Strapi',
+  icon: 'simple-icons:strapi',
+  iconColor: '#4945FF',
+  url: 'https://strapi.io/',
+});
+
+export const materialUI = createSkillFactory({
+  name: 'Material UI',
+  icon: 'simple-icons:mui',
+  iconColor: '#007FFF',
+  url: 'https://mui.com/material-ui/',
+});
+
 export const sass = createSkillFactory({
   name: 'SASS',
   icon: 'simple-icons:sass',
   iconColor: '#CC6699',
+  url: 'https://sass-lang.com/',
+});
+
+export const web3 = createSkillFactory({
+  name: 'Web3.js',
+  icon: 'simple-icons:web3dotjs',
+  iconColor: '#F16822',
+  url: 'https://sass-lang.com/',
+});
+
+export const framerMotion = createSkillFactory({
+  name: 'Framer Motion',
+  icon: 'simple-icons:framer',
+  iconColor: '#0055FF',
   url: 'https://sass-lang.com/',
 });
 
